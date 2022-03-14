@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 9.196 s <<< FAILURE! - in TestSuite
+com.shopclues.tests.TS_003_PRODUCT_COUNT.setupApplication[firefox](0)  Time elapsed: 8.791 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused: connect
+Command duration or timeout: 4.42 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'W10CG753X2', ip: '10.91.65.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Caused by: java.net.ConnectException: Connection refused: connect
+

@@ -1,0 +1,7 @@
+// Hub config in CMD admin mode
+
+java -jar selenium-server-standalone-2.53.0.jar -role hub -hubConfig C:\Users\Bharath_kumar_Ds\eclipse-work\shopclues\hub_nodes_config\hubConfig.json
+
+// Node config in CMD admin mode
+
+java -jar selenium-server-standalone-2.53.0.jar -role rc -nodeConfig C:\Users\Bharath_kumar_Ds\eclipse-work\shopclues\hub_nodes_config\nodeConfig.json -Dwebdriver.gecko.driver=C:\Users\Bharath_kumar_Ds\eclipse-work\shopclues\browser_servers\geckodriver.exe -Dwebdriver.chrome.driver=C:\Users\Bharath_kumar_Ds\eclipse-work\shopclues\browser_servers\chromedriver.exe

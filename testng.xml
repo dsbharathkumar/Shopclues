@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Shopclues Suite" parallel="tests">
+<parameter name="browser" value="chrome"/>
+	<listeners>
+		<listener class-name="com.shopclues.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.shopclues.tests.TS_001_LOGIN_PAGE_VALIDATION" />
+			<class name="com.shopclues.tests.TS_002_SEARCH_PRODUCT" />
+			<class name="com.shopclues.tests.TS_003_PRODUCT_COUNT" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
